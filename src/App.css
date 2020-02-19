@@ -1,0 +1,162 @@
+/* Header */
+#header {
+  height: 15vh;
+  border-bottom: 0.188em solid #cbcbcb !important;
+}
+.btn-close {
+  height: 2em;
+  width: auto;
+  cursor: pointer;
+}
+.btn-publish {
+  border-radius: 2.188em !important;
+  background-color: #e7386a !important;
+  border: 0.063em solid #e7386a !important;
+  cursor: pointer;
+}
+/* Main */
+#main {
+  border-bottom: 0.188em solid #cbcbcb !important;
+}
+.input-search {
+  border-radius: 2.188em !important;
+  border: 0.125em solid #e5e5e5 !important;
+  color: #212121 !important;
+  background-color: #e5e5e5 !important;
+}
+.search-icon {
+  height: 2em;
+  width: auto;
+}
+.input-title {
+  position: absolute;
+  margin-top: -0.938em;
+  width: 50% !important;
+  border-radius: 2.188em !important;
+  border: 0.063em solid #e7386a !important;
+  color: #e7386a !important;
+  margin-left: 10%;
+  z-index: 100;
+}
+.input-text-area {
+  border: 0.063em solid #e7386a !important;
+  border-radius: 0.313em;
+  height: 12.500em
+}
+.input-text-area__input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #e7386a25 !important;
+}
+.input-text-area__input {
+  padding: 1.563em;
+  border-style: none
+}
+.input-text-area__suggestions {
+  border: 0.063em solid #e7386a !important;
+  padding: 0.313em;
+  top: 1.250em !important;
+  left: 28.125em !important;
+  border-radius: 0.313em;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.input-search:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #e7386a25 !important;
+}
+.icon {
+  height: 2em;
+  width: auto;
+  background-color: #e7386a;
+  border-radius: 50%;
+}
+.icons {
+  margin-top: -0.938em;
+  z-index: 1;
+  position: absolute;
+  left: 85vw;
+}
+.icon-star {
+  height: 2em;
+  width: auto;
+}
+.ratings {
+  color: #e7386a
+}
+.input-date-picker {
+  width: 906.5px !important;
+}
+.input-offers {
+  border-radius: 2.188em !important;
+  display: block;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.red {
+  color: #e7386a
+}
+input[type=file] {
+  border: 0.125em solid #e7386a !important;
+  border-radius: 2.188em !important;
+  padding: 0.313em;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #e7386a25 !important;
+}
+.active {
+  border-radius: 2.188em !important;
+  border: 0.125em solid #e7386a !important;
+  color: #e7386a !important;
+  cursor: pointer;
+  width: 6.250em;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #e7386a25 !important;
+}
+input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #e7386a25 !important;
+}
+.not-active {
+  border-radius: 2.188em !important;
+  border: 0.125em solid #cbcbcb !important;
+  color: #cbcbcb !important;
+  cursor: pointer;
+  width: 6.250em;
+}
+.react-datepicker__month-container {
+  z-index: 100 !important;
+  left: -30px;
+}
+.react-datepicker__day--selected {
+  background-color: #e7386a
+} 
+
+.drop-down-currency {
+  border-radius: 2.188em !important;
+  background-color: #e7386a !important;
+  border: 0.063em solid #e7386a !important;
+}
+/* input .form-control:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem #e7386a25 !important;
+} */
+@media (max-width: 575.98px) {
+  .input-text-area__suggestions {
+    left: 10.125em !important;
+  }
+  .icons {
+    left: 19em;
+  }
+  .input-offers {
+    width: 220px !important
+  }
+}
+
